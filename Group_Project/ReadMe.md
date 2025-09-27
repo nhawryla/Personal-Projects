@@ -6,16 +6,15 @@ Project Name : Knotes
 
 Project : The goal of the project was to design a webpage for students to be able to upload their notes and be able to view notes that others have taken. Core features of this project included image text recognition for easy uploading of notes, user database system, sharing page to view your notes and others, and sorting/liking system to keep track of notes that closely relate to the subjects you are studying.
 
-Listed below are pages that I helped create : 
+Listed below are the scripts that I helped create 
 
-FrontEnd : 
+*FrontEnd :*
 
-. courseDisplay.html + .js
-. coursesearch.js
-. myUploadNotes.html + .js
-. upload.js (helped in debugging a majority of the functions, worked on cropping image to select certain parts)
+- courseDisplay.html + .js
+- coursesearch.js
+- myUploadNotes.html + .js
+- upload.js (helped in debugging a majority of the functions, worked on cropping image to select certain parts)
 
-Server :
+*Server :*
 
-server.js (helped set up the server client connection, debugged multiple of the endpoints to get them to work 	
-	   properly, created the method for text extraction from images using google cloud vision API)
+- server.js (helped set up the server client connection, debugged multiple of the endpoints to get them to work properly, created the method for text extraction from images using google cloud vision API)
