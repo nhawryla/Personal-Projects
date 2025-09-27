@@ -8,13 +8,13 @@ Project : The goal of the project was to design a webpage for students to be abl
 
 Listed below are the scripts that I helped create 
 
-*FrontEnd :*
+_FrontEnd :_
 
 - courseDisplay.html + .js
 - coursesearch.js
 - myUploadNotes.html + .js
 - upload.js (helped in debugging a majority of the functions, worked on cropping image to select certain parts)
 
-*Server :*
+_Server :_
 
 - server.js (helped set up the server client connection, debugged multiple of the endpoints to get them to work properly, created the method for text extraction from images using google cloud vision API)
