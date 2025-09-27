@@ -1,0 +1,1 @@
+I do not have access to the origonal K-means clustering project I worked on, however provided is a previous project that I had made Creating a self organizing map to classify motor data provided by our teacher. Classification ended up being unseccesful, however it was a project that I put my time and effort into debugging.
