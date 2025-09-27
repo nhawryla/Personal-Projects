@@ -1,6 +1,6 @@
 Included is the code we produced for our group project.
 
-Background : My role in our group was the team leader, which had me mainly focus on ensuring code quality and timeliness of completions, when help was needed I also took the time to help build some pages and provide debugging help.
+Background : My role in our group was the team leader,, when help was needed I also took the time to help work on scripts and provide debugging help.
 
 Project Name : Knotes
 
