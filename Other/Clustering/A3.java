@@ -257,7 +257,6 @@ public class A3 {
 	
 	double[] shorten(String[] V){
 		
-		//double[] v = Arrays.stream(V).mapToDouble(Double::parseDouble).toArray();
 		double[] ret = new double[V.length-1];
 		
 		for (int z = 0; z < ret.length; z++){
