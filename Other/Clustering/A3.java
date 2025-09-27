@@ -11,7 +11,7 @@ public class A3 {
 
 	ArrayList<Node> vector;
 	ArrayList<Data> data;
-	int length, n, time;
+	int length, time;
 	double[][] Umap;
 	Node[][] map;
 	
@@ -24,9 +24,8 @@ public class A3 {
 		data = new ArrayList<>();
 		Umap = new double[(int) Math.sqrt(length)][(int) Math.sqrt(length)];
 		map = new Node[(int) Math.sqrt(length)][(int) Math.sqrt(length)];
-		this.time = 1000;
+		this.time = time;
 		this.length = length;
-		this.n = n;
 		
 		init();
 		train();
