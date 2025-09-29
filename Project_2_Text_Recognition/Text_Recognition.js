@@ -59,9 +59,7 @@ function getLatestPng(dirPath) {
 
         const text = await detectText(pImage);
         console.log("Extracted Text:");
-        console.log("------------------");
         console.log(text || "No handwriting detected");
-        console.log("------------------");
 
         lastProcessed = latestFile;
       }
