@@ -44,7 +44,7 @@ function getLatestPng(dirPath) {
 }
 
 (async function mainLoop() {
-  console.log("Watching folder for new PNG files...");
+  console.log("waiting...");
 
   let lastProcessed = null;
 
@@ -53,7 +53,7 @@ function getLatestPng(dirPath) {
       const latestFile = getLatestPng(WATCH_DIR);
 
       if (latestFile !== lastProcessed) {
-        console.log(`\nFound new file: ${latestFile}`);
+        console.log(`\nnew file: ${latestFile}`);
 
         const pImage = await preprocessImage(latestFile);
 
