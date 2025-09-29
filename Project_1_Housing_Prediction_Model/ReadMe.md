@@ -1,0 +1,1 @@
+This was a project created for a class to create a neural network to predict the house price when given house data. Shown in the test case I was able to get the model to predict prices within a small range. The dataset used to train this model was the California Housing Dataset.
