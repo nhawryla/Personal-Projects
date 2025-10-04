@@ -7,3 +7,10 @@ The preprocessing steps included three key methods:
 - Grayscale Conversion : Converting the image to grayscale simplified it by removing irrelevant color information, allowing the focus to remain on text features.
 
 - Thresholding : Applying a threshold helped separate darker text from lighter backgrounds, sharpening edges and improving text definition. A threshold value of 180 was selected because it provided an effective cutoff for handwritten text. In most test cases, the images contained dark text on white paper, making this value a practical choice for minimizing background interference while preserving text visibility.
+
+How to run : 
+
+- install packages for sharp and google-cloud vision
+- create credentials for vision API and replace the downloaded json contents with "here" on line 7 [example : JSON.parse(JSON.stringify({"here"}));]
+- create a folder in the same directory called input_images
+- run the script and add a new image to the folder
